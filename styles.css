@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&family=Montserrat:wght@500&family=Space+Mono&display=swap');
+
+body{
+	min-height: 100vh;
+}
+	header {
+		height: 65px;
+	}
+
+		header h1{
+			font: normal 700 24px 'Inconsolata';
+			color: #333333;
+			padding: 40px 0 0 77px;
+			line-height: 25px;
+			letter-spacing: -0.08em;
+		}
+
+
+	main {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		min-height: calc(100vh - 65px - 65px);
+		align-items: center;
+		justify-content: center;
+	}
+
+		main img {
+			max-height:447.43px;
+			max-width: 539.22px;
+			width: 80%;
+			margin-right: 115px;
+		}
+
+		.text{
+			margin-left: 24px;	
+		}
+
+			.text h2{
+				font: normal 700 64px 'Space Mono';
+				line-height: 95px;
+				letter-spacing: -0.035em;
+				color: #333333;
+				margin-bottom: 36px;
+				max-width: 700px;
+			}
+
+			.text p{
+				font: normal 400 24px 'Space Mono';
+				color: #4F4F4F;				
+				line-height: 36px;
+				letter-spacing: -0.035em;
+				max-width: 380px;
+				margin-bottom: 64px;
+			}
+
+			.text button{
+				font: normal 700 14px 'Space Mono';
+				color: #FFFFFF;			
+				line-height: 21px;
+				letter-spacing: -0.035em;
+				cursor: pointer;
+				border: none; 
+				outline:none;
+				width: 216px;
+				height: 68px;
+				left: 740px;
+				top: 663px;
+				background: #333333;
+			}
+
+	footer{
+		margin: 24px 0;
+	}
+
+		footer p{
+			font: normal 500 14px 'Montserrat';
+			line-height: 17px;
+			color: #BDBDBD;
+			text-align: center;
+		}
+
+		footer a{
+			color:#000;
+			font-weight: bold;
+		}
+
+
+
+
+@media screen and (max-width: 1402px){
+	header h1{
+		padding: 20px 0 0 24px;
+	}
+
+	main {
+		min-height: calc(100vh - 65px - 141px);
+	}
+
+		main img {
+			margin: 0;
+		}
+
+		.text h2{
+			font: bold 45px 'Space Mono';
+		}
+		.text p{
+			font: normal 400 18px 'Space Mono';
+		}
+
+	footer{
+		margin-top:100px; 
+	}
+}
+
